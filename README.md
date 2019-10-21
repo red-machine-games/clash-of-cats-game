@@ -15,11 +15,11 @@ It runs with Webpack:
  - Modify `index.html`;
  - Build a production version: `$ cd ./clash-of-cats-game && webpack --config "webpack.production.js"`. Get build from `dist`.
 
-## Netcode
+## Net code
 
 Pvp-related cloud function stored at `cloudFunctions` folder. Real-time networking is powered by deterministic ping-pong model.
 
-Here are some theses about netcode to help you understand it better:
+Here are some theses about net code to help you understand it better:
 
  - Deterministic model powered by mersenne twister random to be synced for both players - common seed provided by backend;
  - The model implements time traveling: it means that you can place opponent input in past time what will change the present;
