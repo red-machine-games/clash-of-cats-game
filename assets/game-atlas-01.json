@@ -1,0 +1,482 @@
+{
+	"textures": [
+		{
+			"image": "game-atlas-01.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1478,
+				"h": 505
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "cat_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 259
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 186,
+						"h": 259
+					}
+				},
+				{
+					"filename": "exit_button",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 239,
+						"h": 230
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 218,
+						"h": 210
+					},
+					"frame": {
+						"x": 1,
+						"y": 262,
+						"w": 218,
+						"h": 210
+					}
+				},
+				{
+					"filename": "cat_02_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 242,
+						"h": 258
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 242,
+						"h": 258
+					},
+					"frame": {
+						"x": 189,
+						"y": 1,
+						"w": 242,
+						"h": 258
+					}
+				},
+				{
+					"filename": "heart",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 144
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 144
+					},
+					"frame": {
+						"x": 221,
+						"y": 261,
+						"w": 176,
+						"h": 144
+					}
+				},
+				{
+					"filename": "blue_clew_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 137,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 136,
+						"h": 133
+					},
+					"frame": {
+						"x": 399,
+						"y": 261,
+						"w": 136,
+						"h": 133
+					}
+				},
+				{
+					"filename": "cat_01_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 258
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 241,
+						"h": 256
+					},
+					"frame": {
+						"x": 433,
+						"y": 1,
+						"w": 241,
+						"h": 256
+					}
+				},
+				{
+					"filename": "the_button",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 690,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 690,
+						"h": 245
+					},
+					"frame": {
+						"x": 537,
+						"y": 259,
+						"w": 690,
+						"h": 245
+					}
+				},
+				{
+					"filename": "cat_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 186,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 254
+					},
+					"frame": {
+						"x": 676,
+						"y": 1,
+						"w": 186,
+						"h": 254
+					}
+				},
+				{
+					"filename": "src_button_shadow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 113,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 111,
+						"h": 102
+					},
+					"frame": {
+						"x": 399,
+						"y": 396,
+						"w": 111,
+						"h": 102
+					}
+				},
+				{
+					"filename": "dark_clew_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 137,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 136,
+						"h": 133
+					},
+					"frame": {
+						"x": 864,
+						"y": 1,
+						"w": 136,
+						"h": 133
+					}
+				},
+				{
+					"filename": "blue_clew_half_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 125,
+						"h": 120
+					},
+					"frame": {
+						"x": 864,
+						"y": 136,
+						"w": 125,
+						"h": 120
+					}
+				},
+				{
+					"filename": "dark_clew_half_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 125,
+						"h": 120
+					},
+					"frame": {
+						"x": 991,
+						"y": 136,
+						"w": 125,
+						"h": 120
+					}
+				},
+				{
+					"filename": "golden_clew_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 137,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 136,
+						"h": 133
+					},
+					"frame": {
+						"x": 1002,
+						"y": 1,
+						"w": 136,
+						"h": 133
+					}
+				},
+				{
+					"filename": "golden_clew_half_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 125,
+						"h": 120
+					},
+					"frame": {
+						"x": 1118,
+						"y": 136,
+						"w": 125,
+						"h": 120
+					}
+				},
+				{
+					"filename": "green_clew_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 137,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 136,
+						"h": 133
+					},
+					"frame": {
+						"x": 1140,
+						"y": 1,
+						"w": 136,
+						"h": 133
+					}
+				},
+				{
+					"filename": "yellow_clew_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 137,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 136,
+						"h": 133
+					},
+					"frame": {
+						"x": 1278,
+						"y": 1,
+						"w": 136,
+						"h": 133
+					}
+				},
+				{
+					"filename": "yellow_clew_half_disheveled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 125,
+						"h": 120
+					},
+					"frame": {
+						"x": 1229,
+						"y": 258,
+						"w": 125,
+						"h": 120
+					}
+				},
+				{
+					"filename": "golden_clew",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 116,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 116
+					},
+					"frame": {
+						"x": 1245,
+						"y": 136,
+						"w": 115,
+						"h": 116
+					}
+				},
+				{
+					"filename": "blue_clew",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 116,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 115
+					},
+					"frame": {
+						"x": 1229,
+						"y": 380,
+						"w": 116,
+						"h": 115
+					}
+				},
+				{
+					"filename": "green_clew",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 116,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 115
+					},
+					"frame": {
+						"x": 1347,
+						"y": 380,
+						"w": 116,
+						"h": 115
+					}
+				},
+				{
+					"filename": "yellow_clew",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 116,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 115
+					},
+					"frame": {
+						"x": 1356,
+						"y": 254,
+						"w": 116,
+						"h": 115
+					}
+				},
+				{
+					"filename": "dark_clew",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 116,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 115
+					},
+					"frame": {
+						"x": 1362,
+						"y": 136,
+						"w": 115,
+						"h": 115
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2095b9f90353a02a1312fb8658a8c277:5ac856a289c72dce3d3903ff0675ef56:20833deee876b286dac9c8df4e6377ea$"
+	}
+}

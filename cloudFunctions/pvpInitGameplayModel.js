@@ -1,0 +1,1 @@
+PvpResponse({ playerA: args.payloadA, playerB: args.payloadB });

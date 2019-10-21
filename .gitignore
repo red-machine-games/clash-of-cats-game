@@ -1,0 +1,8 @@
+.idea
+.vscode
+node_modules
+*.lock
+build
+*.log
+dist
+itsNotForPublicGit.json
