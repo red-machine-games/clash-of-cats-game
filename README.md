@@ -1,5 +1,10 @@
 # Clash of Cats game
 
+<p align="center">
+    <img alt="Goblin Base Server" src="https://raw.githubusercontent.com/red-machine-games/clash-of-cats-game/master/assets/ico/android-chrome-192x192.png" width="192">
+  </a>
+</p>
+
 It's an html5 game developed with [Phaser](https://phaser.io) engine and Goblin Base Server demonstrating capabilities of Backend profiles, leaderboards, matchmaking and real-time PvP.
 
 Check out the demo here: https://rmg-clocats-dev.gbln.app . It's pvp only so try to play with your friend or in different browsers.
