@@ -5,9 +5,9 @@
 
 # Clash of Cats game
 
-It's an html5 game developed with [Phaser](https://phaser.io) engine and Goblin Base Server demonstrating capabilities of Backend profiles, leaderboards, matchmaking and real-time PvP.
+It's an html5 game developed with [Phaser](https://phaser.io) engine and Goblin Base Server demonstrating capabilities of Backend profiles, leaderboards, matchmaking, and real-time PvP.
 
-Check out the demo here: https://rmg-clocats-dev.gbln.app . **It's pvp only so try to play with your friend or in different browsers**.
+Check out the demo here: https://rmg-clocats-dev.gbln.app. **It's PvP only so try to play with your friend or in different browsers**.
 
 Find out more about Goblin Base Server here: https://github.com/red-machine-games/goblin-base-server
 
@@ -22,17 +22,17 @@ It runs with Webpack:
 
 ## Net code
 
-Pvp-related cloud function stored at `cloudFunctions` folder. Real-time networking is powered by deterministic ping-pong model.
+Pvp-related cloud function stored at `cloudFunctions` folder. Real-time networking is powered by a deterministic ping-pong model.
 
 Here are some theses about net code to help you understand it better:
 
- - Deterministic model powered by mersenne twister random to be synced for both players - common seed provided by backend;
+ - Deterministic model powered by Mersenne twister random to be synced for both players - common seed provided by backend;
  - The model implements time traveling: it means that you can place opponent input in past time what will change the present;
  - The model fully syncs with opponent every 2.5 secs;
- - Client sends ~10 direct messages per second to opponent. Turns are used only for game over announcement;
- - Check out determenistic model's code here: https://github.com/red-machine-games/clash-of-cats-game/blob/master/src/model/deterministicPong.js
+ - The client sends ~10 direct messages per second to the opponent. Turns are used only for a game over announcement;
+ - Check out deterministic model's code here: https://github.com/red-machine-games/clash-of-cats-game/blob/master/src/model/deterministicPong.js
 
-All netwoking done with js SDK (https://github.com/red-machine-games/goblin-javascript-asset)
+All networking is done with js SDK (https://github.com/red-machine-games/goblin-javascript-asset)
 
 Check out SDK exposure here: https://github.com/red-machine-games/clash-of-cats-game/blob/master/src/controllers/ControllerHowardResponsibleForNetworking.js
 
@@ -40,4 +40,4 @@ Check out SDK exposure here: https://github.com/red-machine-games/clash-of-cats-
 
 All code and code-related files are under MIT license.
 
-All images, sounds and music under [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+All images, sounds, and music under [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/)
