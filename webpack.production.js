@@ -24,11 +24,23 @@ module.exports = {
         })
     ],
     module: {
-        rules: [{
-            test: /\.js$/,
-            use: ['babel-loader'],
-            include: path.join(__dirname, 'src')
-        }]
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader"
+                }
+            },
+            {
+                test: [/\.vert$/, /\.frag$/],
+                use: "raw-loader"
+            },
+            {
+                test: /\.(gif|png|jpe?g|svg|xml)$/i,
+                use: "file-loader"
+            }
+        ]
     },
     optimization: {
         splitChunks: {
