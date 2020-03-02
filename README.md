@@ -7,7 +7,7 @@
 
 It's an html5 game developed with [Phaser](https://phaser.io) engine and Goblin Base Server demonstrating capabilities of Backend profiles, leaderboards, matchmaking, and real-time PvP.
 
-Check out the demo here: https://rmg-clocats-dev.gbln.app. **It's PvP only so try to play with your friend or in different browsers**.
+Check out the demo here: https://rmg-clocats-dev.goblinserver.com. **It's PvP only so try to play with your friend or in different browsers**.
 
 Find out more about Goblin Base Server here: https://github.com/red-machine-games/goblin-base-server
 
