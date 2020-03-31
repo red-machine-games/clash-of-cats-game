@@ -16,6 +16,7 @@ Find out more about Goblin Base Server here: https://github.com/red-machine-game
 It runs with Webpack:
 
  - Configure `config.js`;
+ - Install dependencies with `npm i` command;
  - Run as development version: `$ cd ./clash-of-cats-game && webpack`;
  - Modify `index.html`;
  - Build a production version: `$ cd ./clash-of-cats-game && webpack --config "webpack.production.js"`. Get build from `dist`.
